@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -10,14 +10,6 @@ function App() {
 // },[])
 
   // write a function to calculate sum of all numbers between 1  to 20.
-  function sumOfNumbers() {
-    let sum = 0;
-    for (let i = 1; i <= 20; i++) {
-      sum += i;
-    }
-    console.log(sum)
-    return sum;
-  }
 
 
   return (
