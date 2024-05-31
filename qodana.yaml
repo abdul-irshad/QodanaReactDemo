@@ -9,7 +9,7 @@ ide: QDNET
 
 #Specify inspection profile for code analysis
 profile:
-  name: qodana.starter
+  name: qodana.recommended
 
 #Enable inspections
 
@@ -28,3 +28,5 @@ profile:
 #Install IDE plugins before Qodana execution (Applied in CI/CD pipeline)
 #plugins:
 #  - id: <plugin.id> #(plugin id can be found at https://plugins.jetbrains.com)
+
+linter: jetbrains/qodana-js:latest
