@@ -5,12 +5,6 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-// useEffect(()=>{
-// sumOfNumbers();
-// },[])
-
-  // write a function to calculate sum of all numbers between 1  to 20.
-
 
   return (
     <>
